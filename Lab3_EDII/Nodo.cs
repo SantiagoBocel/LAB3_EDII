@@ -6,24 +6,24 @@ using System.IO;
 
 namespace Lab3_EDII
 {
-    public class Nodo<T>
+    public class Nodo
     {
-        int id { get; set; }
-        int padre { get; set; }
-        int[] hijos { get; set; }
-        Bebida[] values { get; set; }
+        public int id { get; set; }
+        public int padre { get; set; }
+        public int[] hijos { get; set; }
+        public Bebida[] values { get; set; }
         public Nodo(int grado, bool posicion)
         {
             if (posicion)
             {
-                values = new Bebida[grado - 1];
-                hijos = new int[grado];
 
+                values = new Bebida[(4 / 3) * grado - 1];
+                hijos = new int[grado];
             }
             else
             {
-                values = new Bebida[(4 / 3) * grado - 1];
-                hijos = new int[((4 / 3) * grado - 1) + 1];
+                values = new Bebida[grado - 1];
+                hijos = new int[grado];
             }
         }
         #region Escritura en texto
@@ -35,8 +35,8 @@ namespace Lab3_EDII
                 // Create a file to write to.
                 using (StreamWriter sw = File.CreateText(path))
                 {
-                 
-                    sw.Write("[{0}],[{1}],[{2}],[{3}],[{4}]", values[dato].Nombre,values[dato].Precio,values[dato].Sabor,values[dato].);
+
+                    //  sw.Write("[{0}],[{1}],[{2}],[{3}],[{4}]", values[dato].Nombre,values[dato].Precio,values[dato].Sabor,values[dato].);
 
                 }
             }

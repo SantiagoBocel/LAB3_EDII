@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Quinto ciclo\\Estructura de Datos II\\Lab3_EDII\\Lab3_EDII.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Quinto ciclo\\Estructura de Datos II\\LAB3_EDII\\Lab3_EDII\\Lab3_EDII.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Quinto ciclo\\Estructura de Datos II\\Lab3_EDII\\Lab3_EDII.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Quinto ciclo\\Estructura de Datos II\\LAB3_EDII\\Lab3_EDII\\Lab3_EDII.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Quinto ciclo\\Estructura de Datos II\\Lab3_EDII\\Lab3_EDII.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Quinto ciclo\\Estructura de Datos II\\LAB3_EDII\\Lab3_EDII\\Lab3_EDII.csproj",
         "projectName": "Lab3_EDII",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Quinto ciclo\\Estructura de Datos II\\Lab3_EDII\\Lab3_EDII.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Quinto ciclo\\Estructura de Datos II\\LAB3_EDII\\Lab3_EDII\\Lab3_EDII.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Quinto ciclo\\Estructura de Datos II\\Lab3_EDII\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Quinto ciclo\\Estructura de Datos II\\LAB3_EDII\\Lab3_EDII\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
