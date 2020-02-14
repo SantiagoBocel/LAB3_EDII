@@ -16,8 +16,8 @@ namespace Lab3_EDII
         {
             if (posicion)
             {
-
-                values = new Bebida[(4 / 3) * grado - 1];
+                int valor = ((4*(grado - 1)) / 3);
+                values = new Bebida[valor];
                 hijos = new int[grado];
             }
             else
