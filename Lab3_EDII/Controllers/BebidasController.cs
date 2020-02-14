@@ -4,11 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace Lab3_EDII.Controllers
-{
-    [Route("api/[controller]")]
-    [ApiController]
+{   
     public class BebidasController : ControllerBase
     {
         [HttpPost]
@@ -22,9 +21,6 @@ namespace Lab3_EDII.Controllers
             }
             return BadRequest(ModelState);
         }
-
-
-
 
     }
 }
