@@ -42,5 +42,33 @@ namespace Lab3_EDII
             }
         }
         #endregion
+
+        public void EscrirDatos()
+        {
+            string ArchivoExite= @"c:\temp\test.txt";
+            if (File.Exists(ArchivoExite))
+            {
+                
+            }
+            else
+            {
+                string DatosHijos = string.Empty;
+                string Datos = string.Empty;
+                for (int i = 0; i < 7 ; i++)
+                {
+                     DatosHijos = Convert.ToString(hijos[i]);
+                     Datos = Convert.ToString(values[i]);
+
+
+                }
+                StreamWriter ArchivoArbol = null;
+                ArchivoArbol = File.CreateText(ArchivoExite);
+                ArchivoArbol.Write($"{id}|{padre}|{DatosHijos}|{Datos}");
+                ArchivoArbol.Close();
+              
+                 
+
+            }
+        }
     }
 }

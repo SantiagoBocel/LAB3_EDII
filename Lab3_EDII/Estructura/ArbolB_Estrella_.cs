@@ -1,13 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.IO;
 using System.Threading.Tasks;
+
 
 namespace Lab3_EDII.Estructura
 {
     public class ArbolB_Estrella_
     {
+        public StreamWriter Archivo = null;
+
+        
+
         private static ArbolB_Estrella_ _instance = null;
+
+        
         public static ArbolB_Estrella_ Instance
         {
             get
@@ -73,6 +81,7 @@ namespace Lab3_EDII.Estructura
         {
             if (raiz == null)
             {
+                
                 raiz = new Nodo(grado, bandera);
                 raiz.values[0] = new Bebida()
                 {
@@ -82,6 +91,9 @@ namespace Lab3_EDII.Estructura
                     Precio = P,
                     Casa_Productora = C_P
                 };
+                raiz.EscrirDatos();
+               
+
             }
             else
             {
@@ -111,5 +123,9 @@ namespace Lab3_EDII.Estructura
                 }
             }
         }
+
+      
+
+     
     }
 }
